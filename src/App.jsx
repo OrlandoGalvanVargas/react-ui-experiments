@@ -1,11 +1,11 @@
 import { Profile } from "./Gallery"
 import Gallery from "./Gallery"
+import Message from "./Message";
 
 function App() {
   return (
-    <section>
-      <Gallery />
-    </section>
+  <Message message="Hola mundo" author="orlando" date="today"/>
+  
   )
  
 }
